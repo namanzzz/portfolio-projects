@@ -4,6 +4,7 @@ import ImageSlider from './components/image-slider';
 import LightDarkMode from './components/light-dark-mode';
 import QRCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color';
+import ScrollIndicator from './components/scroll-indicator';
 import StarRating from './components/star-rating';
 
 function App() {
@@ -27,7 +28,15 @@ function App() {
 
 
       {/* light dark mode */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+
+    {/* good times in past 7 days :( */}
+    {/* September starts here */}
+    {/* Scroll Indicator Component */}
+    <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+    
+
     </div>
   );
 }
