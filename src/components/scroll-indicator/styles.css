@@ -4,7 +4,8 @@
     z-index: 1;
     width: 100%;
     text-align: center;
-    background-color: lightcyan;
+    background-color: green;
+    color: #fff;
 }
 
 .scroll-progress-tracking-container{

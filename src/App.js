@@ -1,5 +1,6 @@
 import './App.css';
 import Accordian from './components/accordian';
+import TabTest from './components/custom-tabs/tab-test';
 import ImageSlider from './components/image-slider';
 import LightDarkMode from './components/light-dark-mode';
 import QRCodeGenerator from './components/qr-code-generator';
@@ -34,9 +35,11 @@ function App() {
     {/* good times in past 7 days :( */}
     {/* September starts here */}
     {/* Scroll Indicator Component */}
-    <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+    {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
     
 
+    {/* custom tab component */}
+    <TabTest />
     </div>
   );
 }
